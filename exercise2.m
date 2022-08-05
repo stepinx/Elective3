@@ -3,7 +3,7 @@ pkg load image
 f=imread('fruits.png');
 imfinfo('fruits.png')
 imshow(f);
-# The data type of the original image is uint5
+# The data type of the original image is uint8
 
 j=imresize(f,0.5);
 imwrite(j,'fruits2.png');
